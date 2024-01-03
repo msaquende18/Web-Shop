@@ -55,7 +55,7 @@ const Cart = () => {
               onClick={() => setShowCart(false)}
               className="btn"
              >
-                continue shopping
+                continue a compra 
              </button>
          </Link>
         </div>
@@ -104,7 +104,7 @@ const Cart = () => {
            </div>
            <div className='btn-container'>
              <button type='button' className='btn' onClick={handleCheckout}> 
-                 PAY WITH STRIKE
+                 Pagar com o stripe 
              </button>
            </div>
         </div>
