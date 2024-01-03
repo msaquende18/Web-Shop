@@ -17,7 +17,7 @@ const HeroBanner = ({ heroBanner }) => {
             </button>
             </Link>
             <div className="desc">
-               <h5>Description</h5>
+               <h5>Descrição</h5>
                <p>{heroBanner.desc}</p>
             </div>
         </div>
