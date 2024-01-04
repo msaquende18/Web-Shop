@@ -22,17 +22,17 @@ const Success = () => {
         <p className="icon">
           <BsBagCheckFill />
         </p>
-        <h2>Thank you for your order!</h2>
-        <p className="email-msg">Check your email inbox for the receipt.</p>
+        <h2>A sua foi feita com sucesso!</h2>
+        <p className="email-msg">Verifica o teu email para confirmar a compra.</p>
         <p className="description">
-          If you have any questions, please email
+          Se tiveres uma dúvida, deixe neste e-mail 
           <a className="email" href="msaquende18@gmail.com">
             msaquende18@gmail.com
           </a>
         </p>
         <Link href="/">
           <button type="button" width="300px" className="btn">
-            Continue Shopping
+            Continuar á compra 
           </button>
         </Link>
       </div>
